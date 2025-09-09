@@ -3,7 +3,9 @@
     --second-color :#f6f8f9;
     --button-color1 :#47adf1;
     --button-color2 :#f6f8f9;
-
+    --button-colorq1 :#9c72e4;
+    --button-recruiting :#64c0a9;
+    --button-mobile: #f29e33;
 
 }
 
@@ -16,7 +18,7 @@ body{
 
 
 header{
-    background-color: red;
+    background-color: var(--main-color);
     height: 80px;
     
 
@@ -63,4 +65,19 @@ h1{
 
 p{
    display: inline-block;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+}
+
+
+.editorialsbutton{
+    background-color: var(--button-color1);
+    
+}
+
+.q1goals{
+    background-color: var(--button-colorq1) ;
 }
