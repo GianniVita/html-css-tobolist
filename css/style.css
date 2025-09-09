@@ -1,13 +1,47 @@
-.headercontainer{
-    background-color: #ffffff;
+:root{
+    --main-color :#ffffff;
+    --second-color :#f6f8f9;
+    --button-color1 :#47adf1;
+    --button-color2 :#f6f8f9;
+
+
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+header{
+    background-color: red;
+    height: 80px;
+    
+
 }
 
 .logoboolean{
-    width: 3rem
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
     
+
     
 }
 
 h1{
-    vertical-align: ;
+    display: inline-block;
+    vertical-align: middle;
+       
+}
+    
+.buttons{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.buttonadd{
+    background-color: var(--button-color1);
 }
