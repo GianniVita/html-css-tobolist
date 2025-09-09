@@ -37,11 +37,10 @@ header{
 
 
 main{
-    margin-top: 20px;
+    width: 80%;
     background-color: var(--main-color);
     border-radius: 5px;
-    margin-left: 10% ;
-    margin-right: 10%;
+    margin: 20px auto;
     
 }
 
@@ -55,6 +54,7 @@ h1{
     margin-left: 20%;
     margin-right: 20%;
     height: 80px;
+    padding-top: 20px;
     
 }
 
@@ -103,4 +103,9 @@ button{
 
 .salescolor{
     background-color: var(--button-sales);
+}
+
+.linebreak{
+    height: 5px;
+    background-color: var(--button-color2);
 }
