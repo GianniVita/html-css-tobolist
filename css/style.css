@@ -15,6 +15,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
     margin: 0;
+    background-color: var(--second-color);
 }
 
 
@@ -32,9 +33,12 @@ header{
     vertical-align: middle;
 }
 
+
+
+
 main{
     margin-top: 20px;
-    background-color: var(--button-color2);
+    background-color: var(--main-color);
     border-radius: 5px;
     margin-left: 10% ;
     margin-right: 10%;
